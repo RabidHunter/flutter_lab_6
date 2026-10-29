@@ -18,6 +18,14 @@ class ResetPasswordScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
               ),
             ),
+            const SizedBox(height: 16.0),
+            const Center(
+              child: Text(
+                "Введіть електронну пошту для скидання пароля:",
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 15, color: Colors.black54),
+              ),
+            ),
             const SizedBox(height: 48.0),
             const TextField(
               keyboardType: TextInputType.emailAddress,

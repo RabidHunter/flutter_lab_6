@@ -23,7 +23,7 @@ class SignupScreen extends StatelessWidget {
             const TextField(
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
-                labelText: 'Ім\'я користувача',
+                labelText: 'Електронна пошта',
               ),
             ),
             const SizedBox(height: 16.0),
